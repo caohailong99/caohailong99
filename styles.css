@@ -1,0 +1,127 @@
+body{
+	font-family: Tahoma;
+	font-size: 13px;
+	width: 1000px;
+	margin: 0px auto;
+}
+
+#menu_top{
+	background: #141414;
+	height: 40px;
+	color: #FFF;
+}
+
+#banner{
+	height: 280px;
+	width: 1000px;
+}
+
+#main #left{
+	width: 700px;
+	float: left;
+	min-height: 400px;
+}
+
+#main #right{
+	width: 300px;
+	float: left;
+	min-height: 400px;
+}
+
+#footer{
+	background: #000;
+	width: 1000px;
+	text-align: center;
+	height: 60px;
+	color: #FFF;
+	clear: left;
+	line-height: 60px;
+}
+
+#menu_top ul{
+	margin: 0px;
+	padding: 0px;
+} 
+
+#menu_top ul li{
+	list-style: none;
+	float: left;
+}
+
+#menu_top ul li a{
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: #FFF;
+	padding: 0px 10px 0px 10px;
+}
+
+#menu_top ul li a.active{
+	background: #1949b5;
+}
+
+#banner img{
+	width: 1000px;  
+	height: 280px;
+}
+
+#main #left ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+#main #left ul li{
+	list-style: none;
+	clear: left;
+	border-bottom: 1px solid #ccc;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#main #left ul li img{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+#main #left ul li h1{
+	font-size: 16px;
+	margin-top: 0px;
+}
+
+#main{
+	margin-top: 10px;
+}
+
+#main #right .menu_right ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+#main #right .menu_right ul li{
+	list-style: none;
+}
+
+#main #right .menu_right ul li a{
+	margin: 10px;
+	display: block;
+	text-decoration: none;
+	line-height: 32px;
+	border-bottom: 1px solid #ccc;
+}
+
+#main #right .menu_right h2{
+	background: #194d58 url(F:\Object1\web22_02_2021\iconmn.jpg) no-repeat 3px;
+	height: 40px;
+	margin-top: 0px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 40px;
+	color: #FFF; 
+}
+
+#main #right .menu_bottom img{
+	width: 300px;
+	min-height: 300px;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Day3</title>
+</head>
+<body>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+        }
+        #menu{
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 60px;
+        }
+        #menu_logo img{
+            width: 50px;
+            height: 50px;
+            float: left;
+        }
+        #menu_list ul{
+            margin-left: 500px;
+            display: block;
+            list-style: none;
+            float: left;
+        }
+        #menu_list ul li{
+            text-decoration: none;
+            margin-left: 30px;
+            padding: 0px 15px 0px 15px;
+            float: left;
+            line-height: 30px;
+        }
+        #menu_list ul li a{
+            text-decoration: none;
+            font-size: 17px;
+            color: black;
+        }
+        #menu_list ul li a.i{
+            border: orange solid 3px;
+            font-size: 15px;
+        }
+        #main_left{
+            margin: 0px;
+            padding: 0px;
+            background-color: #f8fafb;
+            width: 50%;
+            min-height: 680px;
+            float: left;
+        }
+        #main_left h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 60px;
+            line-height: 10px;
+        }
+        #main_right{
+            width: 50%;
+            background-image: url("back.jpg");
+            min-height: 680px;
+            float: left;
+        }
+        #main_right #nut{
+            position: absolute;
+            font-size: 13px;
+            background-color: tomato;
+            width: 100px;
+            float: left;
+            margin-top: 580px;
+        }
+    </style>
+    <div id="menu">
+        <div id="menu_logo">
+            <img src="logo.png">
+        </div>
+
+        <div id="menu_list">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Our Approach</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Case studies</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="i">GET A QUOTE</a></li>
+            </ul>
+        </div>
+
+        <div id="main">
+            <div id="main_left">
+                <h1 style="color: tomato;">Battle hardended</h1>
+                <h1>software team for</h1>
+                <h1>founders that</h1>
+                <h1>change the world.</h1>
+                <p>We design and build cloud and moblie application<br>
+                    for people who want to change things for the better<br>
+                    <b>What can we build for you?</b>
+                </p>
+                <img src="i.png" width="100px" height="100px" style="margin-top: 250px;">
+            </div>
+
+            <div id="main_right">
+                <div id="nut">
+                    <i class="fa fa-arrow-right"></i>
+                    <h2>GET IN TOUCH</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
